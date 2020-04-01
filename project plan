@@ -1,0 +1,29 @@
+Plan:
+    personal_finance class
+        Import debit card statement xlsx file
+        Import each line of the xlsx file into a new transaction class
+
+        methods:
+        total net balance
+        monthly net balance
+        print transactions
+        print monthly transactions
+
+    transaction class with
+        - int day
+        - int month
+        - int year
+        - String type: "withdraw" or "deposit"
+        - String description
+        - int value
+
+TODO
+
+DONE:
+average expense, average withdraw total/monthly
+figure out leading zero error for days (current fix is that they are just strings)
+create matplot date for each transaction class object
+print out scatter graph of total and monthly expenditures
+plot of distribution of expenses?
+message for 0 entries in net_balance
+String processor to break up 'descriptions' regex?
